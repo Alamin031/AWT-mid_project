@@ -11,8 +11,11 @@ describe('UsersService', () => {
 
     service = module.get<UsersService>(UsersService);
   });
+  // Test if the service is defined
 
   it('should be defined', () => {
     expect(service).toBeDefined();
   });
 });
+
+///my matha
